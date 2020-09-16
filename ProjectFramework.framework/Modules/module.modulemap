@@ -1,0 +1,11 @@
+framework module ProjectFramework {
+  umbrella header "ProjectFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ProjectFramework.Swift {
+    header "ProjectFramework-Swift.h"
+    requires objc
+}
